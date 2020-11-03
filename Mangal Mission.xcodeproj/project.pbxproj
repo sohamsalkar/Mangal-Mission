@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D202087254E95340060967B /* edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D202086254E95340060967B /* edit.swift */; };
+		3D20208C254EA2E10060967B /* blast.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D20208B254EA2E10060967B /* blast.wav */; };
+		3D202091254EC42E0060967B /* Shiny Signature.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D202090254EC4210060967B /* Shiny Signature.ttf */; };
+		3D8E49492550133100629566 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E49482550133100629566 /* GameOverScene.swift */; };
+		3D90CAB2254D95A800DD0350 /* burst.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D90CAB1254D95A800DD0350 /* burst.wav */; };
+		3DAACC20254D42550016FECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAACC1F254D42550016FECD /* AppDelegate.swift */; };
+		3DAACC22254D42550016FECD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3DAACC21254D42550016FECD /* GameScene.sks */; };
+		3DAACC24254D42550016FECD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3DAACC23254D42550016FECD /* Actions.sks */; };
+		3DAACC26254D42550016FECD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAACC25254D42550016FECD /* GameScene.swift */; };
+		3DAACC28254D42550016FECD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAACC27254D42550016FECD /* GameViewController.swift */; };
+		3DAACC2B254D42550016FECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAACC29254D42550016FECD /* Main.storyboard */; };
+		3DAACC2D254D42580016FECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAACC2C254D42580016FECD /* Assets.xcassets */; };
+		3DAACC38254D42580016FECD /* Mangal_MissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAACC37254D42580016FECD /* Mangal_MissionTests.swift */; };
+		3DAACC43254D42580016FECD /* Mangal_MissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAACC42254D42580016FECD /* Mangal_MissionUITests.swift */; };
+		3DF4C903255128EB00C22A07 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4C902255128EB00C22A07 /* MainMenuScene.swift */; };
+		3DF4C9082551363800C22A07 /* Backing Audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DF4C9072551363800C22A07 /* Backing Audio.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DAACC34254D42580016FECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DAACC14254D42550016FECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DAACC1B254D42550016FECD;
+			remoteInfo = "Mangal Mission";
+		};
+		3DAACC3F254D42580016FECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DAACC14254D42550016FECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DAACC1B254D42550016FECD;
+			remoteInfo = "Mangal Mission";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D202086254E95340060967B /* edit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edit.swift; sourceTree = "<group>"; };
+		3D20208B254EA2E10060967B /* blast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blast.wav; sourceTree = "<group>"; };
+		3D202090254EC4210060967B /* Shiny Signature.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shiny Signature.ttf"; sourceTree = "<group>"; };
+		3D8E49482550133100629566 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		3D90CAB1254D95A800DD0350 /* burst.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = burst.wav; sourceTree = "<group>"; };
+		3DAACC1C254D42550016FECD /* Mangal Mission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mangal Mission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAACC1F254D42550016FECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DAACC21254D42550016FECD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3DAACC23254D42550016FECD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3DAACC25254D42550016FECD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3DAACC27254D42550016FECD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3DAACC2A254D42550016FECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DAACC2C254D42580016FECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DAACC2E254D42580016FECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAACC33254D42580016FECD /* Mangal MissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mangal MissionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAACC37254D42580016FECD /* Mangal_MissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mangal_MissionTests.swift; sourceTree = "<group>"; };
+		3DAACC39254D42580016FECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAACC3E254D42580016FECD /* Mangal MissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mangal MissionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAACC42254D42580016FECD /* Mangal_MissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mangal_MissionUITests.swift; sourceTree = "<group>"; };
+		3DAACC44254D42580016FECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF4C902255128EB00C22A07 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		3DF4C9072551363800C22A07 /* Backing Audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Backing Audio.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DAACC19254D42550016FECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAACC30254D42580016FECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAACC3B254D42580016FECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DAACC13254D42550016FECD = {
+			isa = PBXGroup;
+			children = (
+				3DAACC1E254D42550016FECD /* Mangal Mission */,
+				3DAACC36254D42580016FECD /* Mangal MissionTests */,
+				3DAACC41254D42580016FECD /* Mangal MissionUITests */,
+				3DAACC1D254D42550016FECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DAACC1D254D42550016FECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DAACC1C254D42550016FECD /* Mangal Mission.app */,
+				3DAACC33254D42580016FECD /* Mangal MissionTests.xctest */,
+				3DAACC3E254D42580016FECD /* Mangal MissionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DAACC1E254D42550016FECD /* Mangal Mission */ = {
+			isa = PBXGroup;
+			children = (
+				3DAACC1F254D42550016FECD /* AppDelegate.swift */,
+				3DAACC21254D42550016FECD /* GameScene.sks */,
+				3DAACC23254D42550016FECD /* Actions.sks */,
+				3DAACC25254D42550016FECD /* GameScene.swift */,
+				3DF4C902255128EB00C22A07 /* MainMenuScene.swift */,
+				3D8E49482550133100629566 /* GameOverScene.swift */,
+				3DAACC27254D42550016FECD /* GameViewController.swift */,
+				3D202086254E95340060967B /* edit.swift */,
+				3D20208B254EA2E10060967B /* blast.wav */,
+				3D90CAB1254D95A800DD0350 /* burst.wav */,
+				3DF4C9072551363800C22A07 /* Backing Audio.mp3 */,
+				3D202090254EC4210060967B /* Shiny Signature.ttf */,
+				3DAACC29254D42550016FECD /* Main.storyboard */,
+				3DAACC2C254D42580016FECD /* Assets.xcassets */,
+				3DAACC2E254D42580016FECD /* Info.plist */,
+			);
+			path = "Mangal Mission";
+			sourceTree = "<group>";
+		};
+		3DAACC36254D42580016FECD /* Mangal MissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DAACC37254D42580016FECD /* Mangal_MissionTests.swift */,
+				3DAACC39254D42580016FECD /* Info.plist */,
+			);
+			path = "Mangal MissionTests";
+			sourceTree = "<group>";
+		};
+		3DAACC41254D42580016FECD /* Mangal MissionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DAACC42254D42580016FECD /* Mangal_MissionUITests.swift */,
+				3DAACC44254D42580016FECD /* Info.plist */,
+			);
+			path = "Mangal MissionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DAACC1B254D42550016FECD /* Mangal Mission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAACC47254D42580016FECD /* Build configuration list for PBXNativeTarget "Mangal Mission" */;
+			buildPhases = (
+				3DAACC18254D42550016FECD /* Sources */,
+				3DAACC19254D42550016FECD /* Frameworks */,
+				3DAACC1A254D42550016FECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mangal Mission";
+			productName = "Mangal Mission";
+			productReference = 3DAACC1C254D42550016FECD /* Mangal Mission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DAACC32254D42580016FECD /* Mangal MissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAACC4A254D42580016FECD /* Build configuration list for PBXNativeTarget "Mangal MissionTests" */;
+			buildPhases = (
+				3DAACC2F254D42580016FECD /* Sources */,
+				3DAACC30254D42580016FECD /* Frameworks */,
+				3DAACC31254D42580016FECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DAACC35254D42580016FECD /* PBXTargetDependency */,
+			);
+			name = "Mangal MissionTests";
+			productName = "Mangal MissionTests";
+			productReference = 3DAACC33254D42580016FECD /* Mangal MissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DAACC3D254D42580016FECD /* Mangal MissionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAACC4D254D42580016FECD /* Build configuration list for PBXNativeTarget "Mangal MissionUITests" */;
+			buildPhases = (
+				3DAACC3A254D42580016FECD /* Sources */,
+				3DAACC3B254D42580016FECD /* Frameworks */,
+				3DAACC3C254D42580016FECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DAACC40254D42580016FECD /* PBXTargetDependency */,
+			);
+			name = "Mangal MissionUITests";
+			productName = "Mangal MissionUITests";
+			productReference = 3DAACC3E254D42580016FECD /* Mangal MissionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DAACC14254D42550016FECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					3DAACC1B254D42550016FECD = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					3DAACC32254D42580016FECD = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3DAACC1B254D42550016FECD;
+					};
+					3DAACC3D254D42580016FECD = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3DAACC1B254D42550016FECD;
+					};
+				};
+			};
+			buildConfigurationList = 3DAACC17254D42550016FECD /* Build configuration list for PBXProject "Mangal Mission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DAACC13254D42550016FECD;
+			productRefGroup = 3DAACC1D254D42550016FECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DAACC1B254D42550016FECD /* Mangal Mission */,
+				3DAACC32254D42580016FECD /* Mangal MissionTests */,
+				3DAACC3D254D42580016FECD /* Mangal MissionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DAACC1A254D42550016FECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D202091254EC42E0060967B /* Shiny Signature.ttf in Resources */,
+				3DAACC2B254D42550016FECD /* Main.storyboard in Resources */,
+				3DAACC22254D42550016FECD /* GameScene.sks in Resources */,
+				3D90CAB2254D95A800DD0350 /* burst.wav in Resources */,
+				3DAACC2D254D42580016FECD /* Assets.xcassets in Resources */,
+				3DAACC24254D42550016FECD /* Actions.sks in Resources */,
+				3D20208C254EA2E10060967B /* blast.wav in Resources */,
+				3DF4C9082551363800C22A07 /* Backing Audio.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAACC31254D42580016FECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAACC3C254D42580016FECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DAACC18254D42550016FECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF4C903255128EB00C22A07 /* MainMenuScene.swift in Sources */,
+				3D8E49492550133100629566 /* GameOverScene.swift in Sources */,
+				3DAACC26254D42550016FECD /* GameScene.swift in Sources */,
+				3DAACC28254D42550016FECD /* GameViewController.swift in Sources */,
+				3DAACC20254D42550016FECD /* AppDelegate.swift in Sources */,
+				3D202087254E95340060967B /* edit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAACC2F254D42580016FECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAACC38254D42580016FECD /* Mangal_MissionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAACC3A254D42580016FECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAACC43254D42580016FECD /* Mangal_MissionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DAACC35254D42580016FECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DAACC1B254D42550016FECD /* Mangal Mission */;
+			targetProxy = 3DAACC34254D42580016FECD /* PBXContainerItemProxy */;
+		};
+		3DAACC40254D42580016FECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DAACC1B254D42550016FECD /* Mangal Mission */;
+			targetProxy = 3DAACC3F254D42580016FECD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DAACC29254D42550016FECD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DAACC2A254D42550016FECD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DAACC45254D42580016FECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DAACC46254D42580016FECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DAACC48254D42580016FECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ62DSHCXL;
+				INFOPLIST_FILE = "Mangal Mission/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SomApps-Mangal-Mission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DAACC49254D42580016FECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ62DSHCXL;
+				INFOPLIST_FILE = "Mangal Mission/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SomApps-Mangal-Mission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DAACC4B254D42580016FECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mangal MissionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SomApps.Mangal-MissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mangal Mission.app/Mangal Mission";
+			};
+			name = Debug;
+		};
+		3DAACC4C254D42580016FECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mangal MissionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SomApps.Mangal-MissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mangal Mission.app/Mangal Mission";
+			};
+			name = Release;
+		};
+		3DAACC4E254D42580016FECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mangal MissionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SomApps.Mangal-MissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mangal Mission";
+			};
+			name = Debug;
+		};
+		3DAACC4F254D42580016FECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mangal MissionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SomApps.Mangal-MissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mangal Mission";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DAACC17254D42550016FECD /* Build configuration list for PBXProject "Mangal Mission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAACC45254D42580016FECD /* Debug */,
+				3DAACC46254D42580016FECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAACC47254D42580016FECD /* Build configuration list for PBXNativeTarget "Mangal Mission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAACC48254D42580016FECD /* Debug */,
+				3DAACC49254D42580016FECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAACC4A254D42580016FECD /* Build configuration list for PBXNativeTarget "Mangal MissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAACC4B254D42580016FECD /* Debug */,
+				3DAACC4C254D42580016FECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAACC4D254D42580016FECD /* Build configuration list for PBXNativeTarget "Mangal MissionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAACC4E254D42580016FECD /* Debug */,
+				3DAACC4F254D42580016FECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DAACC14254D42550016FECD /* Project object */;
+}
