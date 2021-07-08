@@ -44,6 +44,7 @@ class GameScene: SKScene , SKPhysicsContactDelegate{
     {
             return CGFloat( Float( arc4random() ) / 0xFFFFFFFF )
     }
+    
     func random(min : CGFloat , max : CGFloat ) -> CGFloat
     {
         return random() * (max - min) + min
@@ -196,7 +197,7 @@ class GameScene: SKScene , SKPhysicsContactDelegate{
             startNewLevel()
         }
     }
-    
+
     func runGameOver()
     {
         currentGameState = gameState.afterGame
@@ -215,7 +216,7 @@ class GameScene: SKScene , SKPhysicsContactDelegate{
         let changeSceneSequence = SKAction.sequence([waitToChangeScene,changeSceneAction])
         self.run(changeSceneAction)
     }
-    
+
     func changeScene()
     {
         let sceneToMoveTo = GameOverScene(size: self.size)
